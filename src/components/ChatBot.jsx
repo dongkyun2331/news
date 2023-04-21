@@ -49,9 +49,9 @@ export default function ChatBot() {
       handleNewsRequest();
       return;
     }
-  };
 
-  setMessages((messages) => [...messages, chatbotMessage].filter(Boolean));
+    setMessages((messages) => [...messages, chatbotMessage].filter(Boolean));
+  };
 
   useEffect(() => {
     const messagesEnd = messagesEndRef.current;
