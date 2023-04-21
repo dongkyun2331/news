@@ -1,5 +1,10 @@
 import React from "react";
+import ChatBot from "./components/ChatBot";
 
 export default function App() {
-  return <div>App</div>;
+  return (
+    <div className="App">
+      <ChatBot />
+    </div>
+  );
 }
